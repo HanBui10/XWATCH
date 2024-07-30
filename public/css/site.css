@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
+
+:root {
+    --font-family-sans-serif: "Roboto", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+pre, code, kbd, samp, .form-control, form-label, .btn, .dropdown-menu, .input-group-text, .form-select, .navbar-toggler {
+    font-size: 0.9rem;
+}
+
+.card, .form-select, .form-control, .btn {
+    border-radius: 0 !important;
+}
+
+.table-responsive {
+    overflow-x: hidden !important;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table {
+    width: 100% !important;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #e6e8eb;
+}
+
+#export-buttons .buttons-excel {
+    border: 1px solid #ced4da;
+    margin-right: 3px;
+}
+
+#export-buttons .buttons-copy {
+    border: 1px solid #ced4da;
+    margin-left: 3px;
+}

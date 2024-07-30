@@ -1,0 +1,37 @@
+.devvn_icon_box {
+    display: flex;
+    border: 1.5px solid #0c0707;
+    margin-bottom: 30px;
+    max-width: 618px;
+    background-color: #d3cfcf;
+}
+
+/* CSS cho hình ảnh */
+.devvn_img {
+    padding: 20px;
+}
+
+.devvn_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS cho nội dung */
+.devvn_content {
+    padding: 20px;
+    font-size: 14px; /* Đặt cỡ chữ là 14px */
+}
+
+.devvn_content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.devvn_content ul li {
+    margin-bottom: 0px;
+}
+
+.devvn_content ul li strong {
+    color: #8d0e12; /* Màu chữ cho đoạn văn bản in đậm */
+}
